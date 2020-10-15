@@ -1,0 +1,35 @@
+.cnt {
+    padding-top: 10px;
+}
+.form-container {
+    display:flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.form-container button {
+    margin-left: 20px;
+}
+.label {
+    padding-left: 10px;
+}
+.movies{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 10px;
+}
+.movieContainer{
+    /*  display: flex;
+    flex-direction: row; 
+    align-items: flex-start; */
+    display: grid;
+    grid-template-columns: 350px 350px 350px 350px;
+    grid-template-rows: 600px 600px 600px;
+    width: fit-content;
+   
+}
+h2{
+padding-left: 10px;
+}
+    
